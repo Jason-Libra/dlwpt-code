@@ -30,7 +30,8 @@ CandidateInfoTuple = namedtuple(
     "isNodule_bool, diameter_mm, series_uid, center_xyz",
 )
 
-path = "D:/Code/data/luna16/"
+# path = "D:/Code/data/luna16/"
+path = "/home/jiangweilong/data/luna16/"
 
 
 @functools.lru_cache(1)
